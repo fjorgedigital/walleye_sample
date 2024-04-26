@@ -12,10 +12,6 @@
                 "--dart-define=ENVIRONMENT=local",
                 "--dart-define=APP_NAME=Walleye Now",
                 "--dart-define=MODE=debug",
-                "--dart-define=STRAPI_BASE_URL=https://strapi-v4.production.walleyenow.project-qa.com/api", //staging strapi instance
-                // "--dart-define=STRAPI_BASE_URL=http://192.168.0.101:1337/api", //local strapi instance
-                "--dart-define=WIREDASH_ID=walleye-now-ir40sfr",
-                "--dart-define=WIREDASH_SECRET=FkGhNE8hNnsrJ1HXZmaOnGyopamWGgpy",
              
             ]
         },
@@ -28,9 +24,6 @@
                 "--dart-define=ENVIRONMENT=local",
                 "--dart-define=APP_NAME=Walleye Now",
                 "--dart-define=MODE=release",
-                "--dart-define=STRAPI_BASE_URL=https://strapi-v4.production.walleyenow.project-qa.com/api", //update this to production strapi url before release
-                "--dart-define=WIREDASH_ID=walleye-now-ir40sfr",
-                "--dart-define=WIREDASH_SECRET=FkGhNE8hNnsrJ1HXZmaOnGyopamWGgpy",
              
             ]
         }
